@@ -16,14 +16,14 @@ public class Booking {
 
 
     Booking() {
-        Scanner sc = new Scanner(System.in);          // todo: 4
+        Scanner sc = new Scanner(System.in);          
         System.out.println("enter passenger name ");
         passengername = sc.nextLine();
         System.out.println("enter busno");
         busno = sc.nextInt();
 //        sc.nextLine();
         System.out.println("enter date in dd-mm-yyyy format");
-        String dateinput = sc.next(); // next use panalam apdi ilana int ku aduthu antha line ha catch pana nextLine use panalam
+        String dateinput = sc.next(); 
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         try {
             date = dateFormat.parse(dateinput);
@@ -56,3 +56,4 @@ public class Booking {
 
         }
     }
+
