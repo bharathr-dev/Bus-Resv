@@ -13,7 +13,7 @@ A simple Java console-based application for bus ticket booking and cancellation.
 
 ## How to Run
 1. Clone the repository:
-   git clone https://github.com/bharathr-dev/Bus-Resv.git
+   git clone https://github.com/bharathr-dev/Bus-Reservation-System.git 
 
 2. Compile the program:
    javac *.java
